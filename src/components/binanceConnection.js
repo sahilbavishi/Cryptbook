@@ -9,3 +9,5 @@ coin = "BTC"
 binance.prices(coin+'BUSD', (error, ticker) => {
     console.log("BTC: ", ticker.BTCBUSD);
   });
+
+console.log('Work');
